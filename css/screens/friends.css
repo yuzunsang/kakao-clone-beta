@@ -1,0 +1,10 @@
+.friends-display-link {
+    position: relative;
+}
+/* .friends-display-link i,span {
+    position: absolute; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
