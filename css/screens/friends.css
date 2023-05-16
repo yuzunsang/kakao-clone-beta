@@ -1,10 +1,4 @@
 .friends-display-link {
-    position: relative;
+    text-align: center;
+    display: block;
 }
-/* .friends-display-link i,span {
-    position: absolute; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} */
