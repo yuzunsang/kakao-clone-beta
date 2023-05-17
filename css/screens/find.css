@@ -37,3 +37,15 @@
     font-size: 18px;
     color: var(--gray);
 }
+
+.open-chat__header {
+    display: flex;
+    justify-content: space-between;
+    color: var(--gray);
+    margin-bottom: 25px;
+}
+
+.open-chat__header span,
+.open-chat__header i {
+    color: var(--light-gray);
+}
