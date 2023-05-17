@@ -20,10 +20,6 @@
     bottom: 15px;
 }
 .nav__more-noti {
-    background-color: tomato;
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
     position: absolute;
     left: 30px;
     bottom: 25px;

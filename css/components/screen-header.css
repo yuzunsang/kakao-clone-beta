@@ -11,4 +11,11 @@
 }
 .screen-header__icons span {
     margin-left: 25px;
+    position:relative;
+}
+
+.screen-header__more-noti {
+    position: absolute;
+    left: 22px;
+    bottom: 22px;
 }
