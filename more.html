@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Find - Kakao Talk</title>
+    <title>More - Kakao Talk</title>
     <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
@@ -24,9 +24,10 @@
     </div>
     
     <header class="screen-header">
-        <h1 class="screen-header__title">Find</h1>
+        <h1 class="screen-header__title">More</h1>
         <div class="screen-header__icons">
             <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-music fa-lg"></i></span>
             <span>
                 <i class="fas fa-cog fa-lg"></i>
                 <div class="screen-header__more-noti badge-s"></div>
@@ -35,61 +36,72 @@
         </div>
     </header>
 
-    <main class="main-screen">
+    <main class="main-screen more-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+              <img class="user-component__avatar user-component__avatar--xl" src="https://avatars.githubusercontent.com/u/111577841?v=4" />
+              <div class="user-component__text">
+                <h4 class="user-component__title">Tim</h4>
+                <h6 class="user-component__subtitle">
+                    +82 10-990-4885
+                    <i class="fas fa-exclamation-circle fa-sm"></i>
+                </h6>
+              </div>
+            </div>
+
+            <div class="user-component__column">
+                <i class="far fa-comment-alt fa-2x"></i>
+            </div>
+
+        </div>
+
         <div class="icon-row">
             <div class="icon-row__icon">
-                <i class="fas fa-qrcode"></i>
-                <span>QR Code</span>
+                <i class="far fa-calendar"></i>
+                <span>Calendar</span>
             </div>
             <div class="icon-row__icon">
-                <i class="fas fa-address-book"></i>
-                <span>Add by Contacts</span>
+                <i class="fas fa-hdd"></i>
+                <span>Talk Drive</span>
             </div>
             <div class="icon-row__icon">
-                <i class="fas fa-fingerprint"></i>
-                <span>Add by ID</span>
+                <i class="fas fa-smile-beam"></i>
+                <span>Emotions</span>
             </div>
             <div class="icon-row__icon">
-                <i class="far fa-envelope"></i>
-                <span>Invite</span>
+                <i class="fas fa-paint-roller"></i>
+                <span>Themes</span>
             </div>
         </div>
 
-        <div class="recommended-friends">
-            <h6 class="recommended-friends__title">Recommended Friends</h6>
-            <span>You have no recommended friends.</span>
+        <div class="icon-row">
+            <div class="icon-row__icon">
+                <i class="fas fa-file-invoice"></i>
+                <span>Account</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="far fa-comments"></i>
+                <span>Openchat</span>
+            </div>
         </div>
 
-        <div class="open-chat">
-            <div class="open-chat__header">
-                <h4>Open Chat</h4>
-                <span>
-                    Go to Openchat Home 
-                    <i class="fas fa-chevron-right fa-xs"></i>
-                </span>
-            </div>
-
-            <div class="open-post">
-                <div class="open-post__column">
-                    <h5 class="open-post__title">#BTS</h5>
-                    <h6 class="open-post__hashtags">#bts#army#friends</h6>
-                    <div class="open-post__info">
-                        <img class="open-post__avatar" src="https://avatars.githubusercontent.com/u/111577841?v=4" />
-                        <span class="open-post__member-count">802 members</span>
-                        <div class="divider"></div>
-                        <span class="open-post__status">Active</span>
-                    </div>
+        <div class="suggestions">
+            <h4>Suggestions</h4>
+            <div class="icon-row">
+                <div class="icon-row__icon">
+                    <img class="suggestions__icon" src="https://upload.wikimedia.org/wikipedia/en/a/ab/KakaoStory_Logo.png">
+                    <span>Kakao Story</span>
                 </div>
-
-                <div class="open-post__column">
-                    <img class="open-post__thumbnail" src="https://m.media-amazon.com/images/I/31BmabzvV6L._SY450_.jpg" />
-                    <div class="open-post__heart-count">
-                        <i class="fas fa-heart fa-xs"></i>
-                        <span>326</span>
-                    </div>
+                <div class="icon-row__icon">
+                    <img class="suggestions__icon" src="https://upload.wikimedia.org/wikipedia/en/8/87/Kakaofriends.png">
+                    <span>Kakao Friends</span>
                 </div>
-
+                <div class="icon-row__icon">
+                    <img class="suggestions__icon" src="https://trees.gamemeca.com/wp-content/uploads/2018/07/tree_ico_kakaogames_frgem.png">
+                    <span>Friends Gem</span>
+                </div>
             </div>
+            
         </div>
     </main>
 
