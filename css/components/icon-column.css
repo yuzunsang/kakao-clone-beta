@@ -1,0 +1,20 @@
+.icon-column {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.icon-column__title {
+    margin-left: 22px;
+    font-weight: 600;
+    font-size: 22px;
+}
+.icon-column__subtitle {
+    color: var(--gray);
+    font-size: 20px;
+}
+
+.icon-column:last-child {
+    border-bottom: none;
+}
