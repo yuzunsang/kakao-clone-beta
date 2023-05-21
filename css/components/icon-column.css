@@ -5,8 +5,12 @@
     border-bottom: 1px solid rgba(0,0,0,0.05);
 }
 
+.icon-column i {
+    margin-right: 22px;
+}
+
 .icon-column__title {
-    margin-left: 22px;
+    opacity: 0.9;
     font-weight: 600;
     font-size: 22px;
 }
