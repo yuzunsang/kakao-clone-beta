@@ -25,20 +25,25 @@
         </div>
     </div>
 
-    <header class="welcome-header">
+    <header class="welcome-header slide-in-bottom">
         <h1 class="welcome-header__title">Welcome to SamrioTalk</h1>
         <p class="welcome-header__text">
             If you have a Samrio Account, log in with your email or phone number.
         </p>
     </header>
 
-    <form id="login-form" action="friends.html" method="get">
-        <input name="username" type="text" placeholder="Email or phone number" />
-        <input name="password" type="password" placeholder="Password" />
+    <form class="slide-in-bottom-delay" id="login-form" action="friends.html" method="GET">
+        <input required name="username" type="text" placeholder="Email or phone number" />
+        <input required name="password" type="password" placeholder="Password" />
         <input type="submit" value="Log In" />
         <!-- <input type="submit" value="Sign Up" /> -->
         <a href="http://sanriokorea.co.kr/" target="_blank">Find Samrio Account or Password</a>
     </form>
+
+    <footer>
+        <img src="https://avatars.githubusercontent.com/u/111577841?v=4" />
+        <a href="https://github.com/yuzunsang">@yuzunsang</a>
+    </footer>
 
     <div id="no-mobile">
         <span>Your Screen is too big 😂</span>

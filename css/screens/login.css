@@ -15,6 +15,25 @@
     opacity: 0.7;
 }
 
+@keyframes slide-in-bottom {
+    0% {
+      transform: translateY(1000px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+.slide-in-bottom {
+	animation: slide-in-bottom 1200ms cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.slide-in-bottom-delay {
+	animation: slide-in-bottom 1200ms cubic-bezier(0.250, 0.460, 0.450, 0.940) 500ms both;
+}
+
 #login-form {
     display: flex;
     flex-direction: column;
@@ -51,4 +70,19 @@
     text-decoration: none;
     color: inherit;
     font-size: 14px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+footer img {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    border-radius: 50%;
 }

@@ -14,7 +14,7 @@
 }
 
 .user-component__column--space {
-    margin-bottom: 20px;
+    padding: 20px 0;
 }
 
 .user-component__avatar {
@@ -22,6 +22,7 @@
     height: 70px;
     border-radius: 42%;
     margin-right: 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
 .user-component__avatar--xl {
@@ -30,11 +31,13 @@
 }
 
 .user-component__title {
+    font-family: 'Nunito', sans-serif;
     font-weight: 600;
     font-size: 22px;
 }
 
 .user-component__subtitle {
+    font-family: 'Nunito', sans-serif;
     margin-top: 8px;
     font-size: 16px;
     color:var(--gray);

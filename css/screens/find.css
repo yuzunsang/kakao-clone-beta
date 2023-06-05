@@ -1,5 +1,5 @@
 #find-screen {
-    height: 120vh;
+    height: 140vh;
 }
 
 .recommended-friends {
@@ -37,6 +37,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 0;
     transition: background-color 200ms ease-in-out;
 }
 
@@ -68,6 +69,7 @@
     height: 20px;
     border-radius: 35%;
     margin-right: 7px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
 .open-post__status {
@@ -89,6 +91,7 @@
     width: 110px;
     height: 110px;
     border-radius: 8px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
 .open-post__column {
