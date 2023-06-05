@@ -10,6 +10,7 @@
     flex-direction: column;
     align-items: center;
     width: 25%;
+    margin-bottom: 30px;
 }
 
 .icon-row__icon i {
@@ -19,7 +20,7 @@
 
 .icon-row__icon i:hover {
     cursor: pointer;
-    color: var(--yellow);
+    color: var(--main-color);
 }
 
 .icon-row__icon span {

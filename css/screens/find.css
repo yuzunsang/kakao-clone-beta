@@ -1,3 +1,7 @@
+#find-screen {
+    height: 120vh;
+}
+
 .recommended-friends {
     margin: 20px 0;
     padding: 25px 0;
@@ -33,6 +37,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: background-color 200ms ease-in-out;
+}
+
+.open-post:hover {
+    background-color: var(--main-color-light);
+    cursor: pointer;
 }
 
 .open-post__title {
