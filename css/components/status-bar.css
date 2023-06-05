@@ -1,6 +1,4 @@
 .status-bar {
-    background-color: var(--main-color);
-    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,6 +7,7 @@
     position: sticky;
     top: 0;
     z-index: 2;
+    background-color: white;
 }
 
 .status-bar__column {
