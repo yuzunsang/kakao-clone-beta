@@ -2,6 +2,45 @@
     margin-top: 35px;
 }
 
+.wallet {
+    background-color: var(--main-color);
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.wallet__title {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.wallet__column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.wallet__column .fa-id-badge {
+    font-weight: 600;
+}
+
+.wallet__money {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.wallet__column--no-ct {
+    display: flex;
+    padding: 20px;
+}
+
+.divider {
+    width: 1px;
+    height: 15px;
+    background-color: var(--light-gray);
+    margin: 0 5px;
+}
+
 .suggestions {
     border-top: var(--main-border);
     padding: 20px 0;
