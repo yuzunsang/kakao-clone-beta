@@ -20,6 +20,24 @@
 @import "screens/more.css";
 @import "screens/chat.css";
 
+html {
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+html::after {
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: url("https://i.pinimg.com/280x280_RS/65/d4/63/65d463d236fc39daf2deabf7bf72f934.jpg");
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.1;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     color: #2f363e;
