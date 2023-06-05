@@ -34,13 +34,17 @@
     color: rgba(0,0,0,0.4);
 }
 #login-form input:focus {
-    border-color: var(--yellow);
+    border-color: var(--main-color);
 }
 #login-form input[type="submit"] {
-    background-color: var(--yellow);
+    background-color: var(--main-color-light);
     cursor:pointer;
     padding: 20px 0;
     border-radius: 5px;
+}
+#login-form input[type="submit"]:hover {
+    background-color: var(--main-color);
+    transition: background-color 200ms ease-in-out;
 }
 #login-form a {
     text-align: center;
