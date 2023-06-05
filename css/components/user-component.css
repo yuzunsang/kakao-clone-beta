@@ -1,6 +1,6 @@
 .user-component {
     justify-content: space-between;
-    transition: background-color 100ms ease-in-out;
+    transition: background-color 200ms ease-in-out;
 }
 
 .user-component:hover {

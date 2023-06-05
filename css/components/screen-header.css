@@ -20,6 +20,37 @@
     bottom: 22px;
 }
 
+@keyframes zoomSearch {
+    0% {
+        transform: none;
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: none;
+    }
+} 
+
+.screen-header__icons .fa-search:hover {
+    animation: zoomSearch 750ms linear infinite;
+    cursor: pointer;
+}
+
+@keyframes rotateMusic {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+.screen-header__icons .fa-music:hover {
+    animation: rotateMusic 1500ms linear infinite;
+    cursor: pointer;
+}
+
 @keyframes rotateCog {
     from{
         transform: none;
@@ -30,5 +61,33 @@
 }
 
 .screen-header__icons .fa-cog:hover {
-    animation: rotateCog 1.5s linear infinite;
+    animation: rotateCog 1500ms linear infinite;
+}
+
+@keyframes wobble-hor-bottom {
+    0%,
+    100% {
+      transform: translateX(0%);
+      transform-origin: 50% 50%;
+    }
+    15% {
+      transform: translateX(-30px) rotate(-6deg);
+    }
+    30% {
+      transform: translateX(15px) rotate(6deg);
+    }
+    45% {
+      transform: translateX(-15px) rotate(-3.6deg);
+    }
+    60% {
+      transform: translateX(9px) rotate(2.4deg);
+    }
+    75% {
+      transform: translateX(-6px) rotate(-1.2deg);
+    }
+  }
+
+.screen-header__icons .fa-comment-dots:hover {
+	animation: wobble-hor-bottom 0.8s both;
+    cursor: pointer;
 }
