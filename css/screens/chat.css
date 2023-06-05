@@ -1,17 +1,18 @@
 #chat-screen {
-    background-color: #abc1d1;
-    height: 500vh;
+    font-family: 'Nunito', sans-serif;
+    background-color: var(--main-color-light);
+    height: 120vh;
 }
 
 #chat-screen .status-bar {
-    background-color: #abc1d1;
+    background-color: white;
     position: sticky;
     top: 0;
     z-index: 2;
 }
 
 #chat-screen .alt-screen-header {
-    background-color: #abc1d1;
+    background-color: var(--main-color-light);
     position: fixed;
     width: 100%;
     box-sizing: border-box;
