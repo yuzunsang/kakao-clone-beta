@@ -1,5 +1,10 @@
 .user-component {
     justify-content: space-between;
+    transition: background-color 100ms ease-in-out;
+}
+
+.user-component:hover {
+    background-color: var(--main-color-light);
 }
 
 .user-component,
